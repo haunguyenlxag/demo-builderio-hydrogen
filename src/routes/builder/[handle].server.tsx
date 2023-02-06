@@ -7,7 +7,7 @@ import {BuilderComponent} from '~/components/BuilderComponent.client';
 import {useQuery} from '@shopify/hydrogen';
 import {builder} from '@builder.io/react';
 
-builder.init('5e5763d7cc284548bffa393de98e52c1');
+builder.init('5392aabdddfe455c892d9897f30391a0');
 
 const MODEL_NAME = 'page';
 
