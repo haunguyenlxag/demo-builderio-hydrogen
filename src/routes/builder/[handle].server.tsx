@@ -33,9 +33,8 @@ export default function Page(props: any) {
       ) : (
         <Layout>
           <Suspense></Suspense>
-          <PageHeader heading={content?.data?.data?.title}>
+          <PageHeader heading={content?.data?.data?.title}></PageHeader>
             <BuilderComponent model={MODEL_NAME} content={content?.data} />
-          </PageHeader>
         </Layout>
       )}
     </div>
