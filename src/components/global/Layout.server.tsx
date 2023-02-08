@@ -24,6 +24,7 @@ export function Layout({children}: {children: React.ReactNode}) {
           </a>
         </div>
         <Suspense fallback={<Header title={SHOP_NAME_FALLBACK} />}>
+          <div>Development testing</div>
           <HeaderWithMenu />
         </Suspense>
         <main role="main" id="mainContent" className="flex-grow">
